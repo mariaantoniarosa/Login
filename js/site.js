@@ -6,8 +6,17 @@ function validador() {
         document.faleconosco.email.focus();
         return false;
     }
-     
     
+    
+
+    if (document.faleconosco.senha.value == document.faleconosco.senha2.value)  { 
+        console.log ("Ok");
+    }else { 
+        alert("As senhas não conferem.");
+    }
+    
+    
+
 
     return true;
 }
