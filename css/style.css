@@ -1,41 +1,41 @@
-body { 
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-background-image: linear-gradient(to left,green, yellow, blue, aqua, pink, purple);
+    background-image: linear-gradient(to left, green, yellow, blue, aqua, pink, purple);
 }
 
-#login { 
+#login {
     height: 400px;
     width: 400px;
     background-color: black;
-    color: white;  
+    color: white;
     font-size: 20px;
     border-radius: 20px;
     position: absolute;
     top: 10%;
     left: 35%;
-   padding:20px;
- 
+    padding: 20px;
+
 }
 
-h1 { 
+h1 {
     color: white;
 }
 
-input { 
-font-size: 15px;
-padding: 15px;
-background-color: gainsboro;
+input {
+    font-size: 15px;
+    padding: 15px;
+    background-color: gainsboro;
 
 }
 
-form { 
+form {
 
     margin: 0px 80px;
     margin-bottom: 20px;
 }
 
-button { 
-    
+button {
+
     margin: 8px;
     padding: 10px;
     border-radius: 15px;
@@ -44,5 +44,5 @@ button {
     font-size: 15px;
 
 
-    
+
 }
