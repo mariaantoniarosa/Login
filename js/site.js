@@ -7,14 +7,22 @@ function validador() {
         return false;
     }
     
-    
-
     if (document.faleconosco.senha.value == document.faleconosco.senha2.value)  { 
         console.log ("Ok");
     }else { 
         alert("As senhas não conferem.");
+        return false;
     }
     
+    var senha = document.faleconosco.senha.value;
+    var expRegSenha= new RegExp("^([A-Z])([a-z]+)([0-9]+)([@!%&#$]{1})$")
+
+    if (!expRegSenha.test(senha)) { 
+        alert ("Senha fraca, preencha com caracteres especiais e uma letra maiúscula!");
+        document.faleconosco.senha.focus();
+        return false;
+    }
+
     
 
 
